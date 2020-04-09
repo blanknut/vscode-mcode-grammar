@@ -1,0 +1,27 @@
+{
+    "name": "hp41mcode",
+    "displayName": "HP-41 Machine Language",
+    "description": "Provides syntax highlighting for HP-41 M-CODE",
+    "version": "0.0.1",
+    "publisher": "jurgenkeller",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "icon": "images/hp41mcode.png",
+    "contributes": {
+        "languages": [{
+            "id": "mcode",
+            "aliases": ["HP-41 M-CODE", "mcode"],
+            "extensions": [".src"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mcode",
+            "scopeName": "source.hp41mcode",
+            "path": "./syntaxes/mcode.tmLanguage"
+        }]
+    }
+}
