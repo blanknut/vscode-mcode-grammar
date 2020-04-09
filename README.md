@@ -22,7 +22,7 @@ None.
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.2
 
 Added repository to extension manifest.
 
