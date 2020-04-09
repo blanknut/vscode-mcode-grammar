@@ -2,7 +2,7 @@
     "name": "hp41mcode",
     "displayName": "HP-41 Machine Language",
     "description": "Provides syntax highlighting for HP-41 M-CODE",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "jurgenkeller",
     "engines": {
         "vscode": "^1.44.0"
@@ -23,5 +23,9 @@
             "scopeName": "source.hp41mcode",
             "path": "./syntaxes/mcode.tmLanguage"
         }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blanknut/vscode-mcode-grammar.git"
     }
 }

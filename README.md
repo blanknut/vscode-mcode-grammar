@@ -24,4 +24,8 @@ None.
 
 ### 0.0.1
 
+Added repository to extension manifest.
+
+### 0.0.1
+
 Initial release.
